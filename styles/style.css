@@ -34,6 +34,10 @@ body {
     color: #001122;
 }
 
+.tab:hover{
+    background-color: #c5c5c5
+}
+
 .thumb { 
     /* background: url(blah.jpg) 50% 50% no-repeat; 50% 50% centers image in div */
     object-fit: cover;
@@ -58,12 +62,6 @@ body {
 
 div.card {
     color: #001122;
-}
-
-div.card:hover {
-    -webkit-transform: scale(1.009);
-    -ms-transform: scale(1.009);
-    transform: scale(1.009);
 }
 
 div.terminal:hover {
